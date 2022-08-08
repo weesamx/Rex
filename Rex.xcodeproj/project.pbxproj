@@ -13,6 +13,20 @@
 		22A3331C289FC96000E3023D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3330A289FC95F00E3023D /* ContentView.swift */; };
 		22A3331D289FC96000E3023D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A3330B289FC96000E3023D /* Assets.xcassets */; };
 		22A3331E289FC96000E3023D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A3330B289FC96000E3023D /* Assets.xcassets */; };
+		22A3332828A00BD900E3023D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3332728A00BD900E3023D /* CameraView.swift */; };
+		22A3332928A00BD900E3023D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3332728A00BD900E3023D /* CameraView.swift */; };
+		22A3333B28A13D8E00E3023D /* TextRecognizerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3333A28A13D8E00E3023D /* TextRecognizerClass.swift */; };
+		22A3333C28A13D8E00E3023D /* TextRecognizerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3333A28A13D8E00E3023D /* TextRecognizerClass.swift */; };
+		22A3333E28A13DF400E3023D /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3333D28A13DF400E3023D /* ImageData.swift */; };
+		22A3333F28A13DF400E3023D /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3333D28A13DF400E3023D /* ImageData.swift */; };
+		22A3334528A1697C00E3023D /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3334428A1697C00E3023D /* NavigationBar.swift */; };
+		22A3334628A1697C00E3023D /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3334428A1697C00E3023D /* NavigationBar.swift */; };
+		22F5152828A1730C004E0E7B /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5152728A1730C004E0E7B /* ImageDataModel.swift */; };
+		22F5152928A1730C004E0E7B /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5152728A1730C004E0E7B /* ImageDataModel.swift */; };
+		22F5153028A18263004E0E7B /* RexDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F5152E28A18263004E0E7B /* RexDataModel.xcdatamodeld */; };
+		22F5153128A18263004E0E7B /* RexDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F5152E28A18263004E0E7B /* RexDataModel.xcdatamodeld */; };
+		22F5153528A18354004E0E7B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5153428A18354004E0E7B /* CoreDataManager.swift */; };
+		22F5153628A18354004E0E7B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5153428A18354004E0E7B /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,14 @@
 		22A33310289FC96000E3023D /* Rex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A33316289FC96000E3023D /* Rex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A33318289FC96000E3023D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		22A3332728A00BD900E3023D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		22A3332F28A11FFB00E3023D /* Rex--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rex--iOS--Info.plist"; sourceTree = "<group>"; };
+		22A3333A28A13D8E00E3023D /* TextRecognizerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizerClass.swift; sourceTree = "<group>"; };
+		22A3333D28A13DF400E3023D /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		22A3334428A1697C00E3023D /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		22F5152728A1730C004E0E7B /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		22F5152F28A18263004E0E7B /* RexDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RexDataModel.xcdatamodel; sourceTree = "<group>"; };
+		22F5153428A18354004E0E7B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +67,7 @@
 		22A33303289FC95F00E3023D = {
 			isa = PBXGroup;
 			children = (
+				22A3332F28A11FFB00E3023D /* Rex--iOS--Info.plist */,
 				22A33308289FC95F00E3023D /* Shared */,
 				22A33317289FC96000E3023D /* macOS */,
 				22A33311289FC96000E3023D /* Products */,
@@ -54,8 +77,11 @@
 		22A33308289FC95F00E3023D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				22F5153228A18338004E0E7B /* Manager */,
+				22A3332A28A00C0800E3023D /* view */,
 				22A33309289FC95F00E3023D /* RexApp.swift */,
 				22A3330A289FC95F00E3023D /* ContentView.swift */,
+				22F5152E28A18263004E0E7B /* RexDataModel.xcdatamodeld */,
 				22A3330B289FC96000E3023D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +102,50 @@
 				22A33318289FC96000E3023D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		22A3332A28A00C0800E3023D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				22A3334028A167A400E3023D /* navigationBar */,
+				22A3333928A13D6F00E3023D /* textRecognizer */,
+				22A3332B28A00D1000E3023D /* camera */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		22A3332B28A00D1000E3023D /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				22A3332728A00BD900E3023D /* CameraView.swift */,
+				22A3333D28A13DF400E3023D /* ImageData.swift */,
+				22F5152728A1730C004E0E7B /* ImageDataModel.swift */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		22A3333928A13D6F00E3023D /* textRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				22A3333A28A13D8E00E3023D /* TextRecognizerClass.swift */,
+			);
+			path = textRecognizer;
+			sourceTree = "<group>";
+		};
+		22A3334028A167A400E3023D /* navigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				22A3334428A1697C00E3023D /* NavigationBar.swift */,
+			);
+			path = navigationBar;
+			sourceTree = "<group>";
+		};
+		22F5153228A18338004E0E7B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				22F5153428A18354004E0E7B /* CoreDataManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +246,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A3332828A00BD900E3023D /* CameraView.swift in Sources */,
 				22A3331B289FC96000E3023D /* ContentView.swift in Sources */,
+				22F5152828A1730C004E0E7B /* ImageDataModel.swift in Sources */,
+				22F5153028A18263004E0E7B /* RexDataModel.xcdatamodeld in Sources */,
 				22A33319289FC96000E3023D /* RexApp.swift in Sources */,
+				22A3333E28A13DF400E3023D /* ImageData.swift in Sources */,
+				22F5153528A18354004E0E7B /* CoreDataManager.swift in Sources */,
+				22A3333B28A13D8E00E3023D /* TextRecognizerClass.swift in Sources */,
+				22A3334528A1697C00E3023D /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A3332928A00BD900E3023D /* CameraView.swift in Sources */,
 				22A3331C289FC96000E3023D /* ContentView.swift in Sources */,
+				22F5152928A1730C004E0E7B /* ImageDataModel.swift in Sources */,
+				22F5153128A18263004E0E7B /* RexDataModel.xcdatamodeld in Sources */,
 				22A3331A289FC96000E3023D /* RexApp.swift in Sources */,
+				22A3333F28A13DF400E3023D /* ImageData.swift in Sources */,
+				22F5153628A18354004E0E7B /* CoreDataManager.swift in Sources */,
+				22A3333C28A13D8E00E3023D /* TextRecognizerClass.swift in Sources */,
+				22A3334628A1697C00E3023D /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +396,8 @@
 				DEVELOPMENT_TEAM = 8BB79ZRWF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rex--iOS--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +428,8 @@
 				DEVELOPMENT_TEAM = 8BB79ZRWF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rex--iOS--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +538,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22F5152E28A18263004E0E7B /* RexDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22F5152F28A18263004E0E7B /* RexDataModel.xcdatamodel */,
+			);
+			currentVersion = 22F5152F28A18263004E0E7B /* RexDataModel.xcdatamodel */;
+			path = RexDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 22A33304289FC95F00E3023D /* Project object */;
 }
